@@ -9,7 +9,7 @@ jobs:
       - name: setup Node.js
         uses: actions/setup@node@V4
         with: 
-          node-version: '22.4.1'
+          node-version: '22.4'
       - name: install dependencies
         run: npm install
       - name: Run tests
